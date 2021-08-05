@@ -1,0 +1,36 @@
+{
+  "name": "ocean-cli",
+  "version": "1.0.0",
+  "description": "脚手架生成工具",
+  "bin": {
+    "mini": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name": "miniocean",
+    "email": "1037306928@qq.com"
+  },
+  "keywords": [
+    "cli",
+    "mini",
+    "脚手架"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  }
+}
